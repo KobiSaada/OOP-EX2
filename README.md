@@ -47,7 +47,7 @@ Open your IDE and make sure you see the project "OOPEX2-Challenge Pokemon"
 # How to run it?
  
  If you are running from the terminal then go to the folder you downloaded from this Githav in the terminal run from the command line 
-  java -jar EX2.jar {ID} {NumLevel} 
+  java -jar EX2.jar {ID} {NumLevel} (NumLevel needs to be an Integer Between 0-23) 
   And the game will appear Enjoy!!
   
  else:
