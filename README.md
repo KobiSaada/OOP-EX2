@@ -45,8 +45,14 @@ Clone that project to your workspace directory
 Open your IDE and make sure you see the project "OOPEX2-Challenge Pokemon"
 
 # How to run it?
-
-There is a class called "Ex2" in the gameclient package, this is the only class that contains a main method – which means this is the class to "run".
+ 
+ If you are running from the terminal then go to the folder you downloaded from this Githav in the terminal run from the command line 
+  java -jar EX2.jar {ID} {NumLevel} 
+  And the game will appear Enjoy!!
+  
+ else:
+ 
+ There is a class called "Ex2" in the gameclient package, this is the only class that contains a main method – which means this is the class to "run".
 
 Now, as you are running it – it will open GUI's (MyFrame_Gui class) window:
 * Enter your Id:
