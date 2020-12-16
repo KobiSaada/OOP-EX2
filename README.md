@@ -64,7 +64,10 @@ and after this window open and the game is starting up(in this window it's level
 <img width="861" alt="Screen Shot 2020-12-16 at 13 34 40" src="https://user-images.githubusercontent.com/73976733/102343706-8647be80-3fa3-11eb-8d5c-549c51bd9969.png">
 
 And when the game is over, the score and the number of steps taken will appear:
+
 <img width="286" alt="Screen Shot 2020-12-16 at 13 28 37" src="https://user-images.githubusercontent.com/73976733/102344062-0706ba80-3fa4-11eb-87ef-48cddf933ffb.png">
+
+ And :
 
 <img width="359" alt="Screen Shot 2020-12-16 at 13 29 03" src="https://user-images.githubusercontent.com/73976733/102344251-4d5c1980-3fa4-11eb-8240-4b2094d3e481.png">
 
