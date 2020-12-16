@@ -79,7 +79,7 @@ public class Ex2 implements Runnable, ActionListener {
         }
     clip.start();
 
-        //game_algo.locationRobot();
+        
 
         gui.setTitle("Ex2 - OOP: The Challenge Pokemon Game");
         int ind = 0;
