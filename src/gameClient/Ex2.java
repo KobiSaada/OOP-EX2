@@ -24,7 +24,30 @@ public class Ex2 implements Runnable, ActionListener {
     public static game_service game;
     public static int numGame;
 
+ 
     public static void main(String[] a) {
+        if (a.length == 2) {
+            numGame = Integer.parseInt(a[1]);
+            id = Integer.parseInt(a[0]);
+            game = Game_Server_Ex2.getServer(numGame);
+            ImageIcon imageIcon = new ImageIcon("doc/pikachu-oh-yeah.gif");
+            JOptionPane.showMessageDialog(null,"Enjoy And Cath them all !!","Welcome to Pokemon Challenge Game",JOptionPane.OK_CANCEL_OPTION,imageIcon);
+
+        }
+        else {
+            ImageIcon imageIcon = new ImageIcon("doc/pikachu-oh-yeah.gif");
+            String s = (String) JOptionPane.showInputDialog(null, " Please Enter Your Id Number : ", "ID", JOptionPane.QUESTION_MESSAGE, imageIcon, null, 0);
+
+            id = Integer.parseInt(s);
+
+            ImageIcon imageIcon1 = new ImageIcon("doc/tenor (1).gif");
+            String[] chooseNumOfGame = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"};
+            Object selectedNumOfGame = JOptionPane.showInputDialog(null, "Choose a num of game", "Message", JOptionPane.INFORMATION_MESSAGE, imageIcon1, chooseNumOfGame, chooseNumOfGame[0]);
+
+            int num = Integer.parseInt((String) selectedNumOfGame);
+            game = Game_Server_Ex2.getServer(num);
+            numGame = num;
+        }
 
 
         Thread client = new Thread(new Ex2());
@@ -35,19 +58,10 @@ public class Ex2 implements Runnable, ActionListener {
     @Override
     public void run() {
 
-        ImageIcon imageIcon = new ImageIcon("doc/pikachu-oh-yeah.gif");
-        String s = (String) JOptionPane.showInputDialog(null, " Please Enter Your Id Number : ", "ID", JOptionPane.QUESTION_MESSAGE, imageIcon, null, 0);
 
-        int id = Integer.parseInt(s);
-
-        ImageIcon imageIcon1 = new ImageIcon("doc/tenor (1).gif");
-        String[] chooseNumOfGame = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23"};
-        Object selectedNumOfGame = JOptionPane.showInputDialog(null, "Choose a num of game", "Message", JOptionPane.INFORMATION_MESSAGE, imageIcon1, chooseNumOfGame, chooseNumOfGame[0]);
-
-        int num = Integer.parseInt((String) selectedNumOfGame);
-        game = Game_Server_Ex2.getServer(num);
+ 
         game.login(id);
-        numGame = num;
+     
 
         String g = game.getGraph();
         String pks = game.getPokemons();
