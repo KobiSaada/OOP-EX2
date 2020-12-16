@@ -216,7 +216,7 @@ public class Ex2 implements Runnable, ActionListener {
     /**
      * This function finds the edge on which the pokemon is located.
      *
-     * @param pokemon is the fruit we are looking for.
+     * @param pokemon is the pokemon we are looking for.
      * @return the edge we found.
      */
     public static edge_data getEdge(CL_Pokemon pokemon) {
@@ -259,7 +259,7 @@ public class Ex2 implements Runnable, ActionListener {
     }
 
     /**
-     * This function collects all the edges that have fruit in a list.
+     * This function collects all the edges that have Pokemon in a list.
      *
      * @return the list the function has built.
      */
@@ -282,7 +282,7 @@ public class Ex2 implements Runnable, ActionListener {
 
 
     /**
-     * This function checks which vertex should send the robots.
+     * This function checks which vertex should send the Agent.
      *
      * @param agent     is the AgentPokemon.
      * @param graphGame is the graph of this game.
@@ -322,11 +322,11 @@ public class Ex2 implements Runnable, ActionListener {
     }
 
     /**
-     * this is an auxiliary function to move the robot from the method "next node" to the closest fruit.
+     * this is an auxiliary function to move the Agent from the method "next node" to the closest Pokemon.
      *
      * @param ag           - the Agent to move
      * @param shortestPath - the route that the robot should to pass.
-     * @param catchPokemon - the fruit that the robot need to eat.
+     * @param catchPokemon - the pokemon that the agent need to cath.
      */
     public static void Run_To_Pokemon_Agent(CL_Agent ag, List<node_data> shortestPath, edge_data catchPokemon) {
         for (node_data n : shortestPath) {
