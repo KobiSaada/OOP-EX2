@@ -7,7 +7,7 @@
 # Genral Info :
 
 Task number 2 in the object-oriented course This task is divided into 2 parts, first part, similar to previous tasks. Implementing a graph.
-Only this time a deliberate and weighted graph with the addition of departments and part two realizing a Pokemon game and managing agents for their target Pokemon similar to the Pacman game the game based on Grahs with nodes and edges taht represent the route. The player in the game represented by pokemonagent. There are fruits scattered on the graph randomly from the srever and the goal of the game is to eat as much fruit as possible and earn as many points as possible until the time is over.
+Only this time a directed and weighted graph with the addition of departments and part two realizing a Pokemon game and managing agents for their target Pokemon similar to the Pacman game the game based on Grahs with nodes and edges taht represent the route. The player in the game represented by pokemonagent. There are pokemons scattered on the graph randomly from the srever and the goal of the game is to cath as much pokemons as possible and earn as many points as possible until the time is over.
 The game draw by JFrme class.
 
 # Getting Started :
@@ -35,7 +35,7 @@ Open your IDE and make sure you see the project "OOPEX2-Challenge Pokemon"
 
 There is a class called "Ex2" in the gameclient package, this is the only class that contains a main method – which means this is the class to "run".
 
-Now, as you are running it – it will open GUI's (MyFrame class) window:
+Now, as you are running it – it will open GUI's (MyFrame_Gui class) window:
 * Enter your Id:
 
 <img width="320" alt="Screen Shot 2020-12-11 at 0 49 02" src="https://user-images.githubusercontent.com/73976733/101839282-c42f8780-3b4a-11eb-973d-c538c7b8f349.png">
@@ -77,7 +77,7 @@ This class build single node. An object from class Node contain the follow featu
 * Info-String
 
 # DWGraph_DS class :
-This class build a graph that defined by nodes and edges. It contain a collection of node with use in Node Class and collection of edge with use in Edge Clas.
+This class build a graph that defined by nodes and edges. It contain a collection of node with use in Node data Class and collection of edge with use in Edge Class In this class I used the hashamp for vertices and hasmap for Edges  I used this data structure because it actually performs the actions that the class needs most efficiently.
 
 An object from class DGraph contain the follow feature:
 
@@ -94,6 +94,9 @@ In this class we solved a algorithmic problems as - What is the shortest path in
 An object from class Graph_Algo contain the follow feature:
 
  directed_weighted_graph - this is the graph that we perform the algorithms on.
+ * shortestpath -Finding the shortest route in a weighted and deliberate graph I realized this with the help of the Digestra algorithm
+ 
+ * IsConected-Checking whether a weighted and directed graph is conected I implemented this with the help of a DFS algorithm on each vertex if it has a edge coming in and out of it so I used DFS twice in each direction of edge
  
  # Example For Shortest Path :
  ![multi-stage-graph](https://user-images.githubusercontent.com/73976733/102022330-c124d900-3d8e-11eb-84ae-4ad241999919.jpg)
@@ -114,7 +117,6 @@ This class build single pokemon. An object from class CL_Pokemon contain the fol
 * Pos - represent the locatiobn of the fruit on the axis - X, Y, Z.
 * Value - represent the point that the fruit is worth.
 * Type - represent if the fruit on up edge or down edge -1(D) or 1(U).
-* Pic - represent the picture of the fruit (pokemon).
 * edge - represent the deatination of the robot
 
 
@@ -126,13 +128,13 @@ This class build single robot. An object from class Robots contain the follow fe
 
 * Pos - represent the locatiobn of the robot on the axis - X, Y, Z.
 
-* Value - represents the points earned by the robot.
+* Value - represents the points earned by the agent.
 
-* Id - represent the ID of the robot
+* Id - represent the ID of the agent
 
-* _curr_edge - represent the destination node that the robot go to.
+* _curr_edge - represent the destination node that the agent go to.
 
-* Speed - represent the speed of the robot.
+* Speed - represent the speed of the agent.
 
 
 # Arena class:
