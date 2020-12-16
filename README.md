@@ -4,6 +4,16 @@
 # The Pokemon Challenge Game :
 ![output-onlinepngtools (6)](https://user-images.githubusercontent.com/73976733/101840405-b418a780-3b4c-11eb-8bdc-febf47295196.png)
 
+# External Info :
+* https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+* https://www.guru99.com/java-swing-gui.html
+* https://docs.oracle.com/javase/tutorial/uiswing/components/frame.html
+* https://en.wikipedia.org/wiki/Directed_graph
+
+
+
+
+
 # Genral Info :
 
 Task number 2 in the object-oriented course This task is divided into 2 parts, first part, similar to previous tasks. Implementing a graph.
@@ -41,17 +51,22 @@ There is a class called "Ex2" in the gameclient package, this is the only class 
 Now, as you are running it – it will open GUI's (MyFrame_Gui class) window:
 * Enter your Id:
 
-<img width="320" alt="Screen Shot 2020-12-11 at 0 49 02" src="https://user-images.githubusercontent.com/73976733/101839282-c42f8780-3b4a-11eb-973d-c538c7b8f349.png">
+<img width="525" alt="Screen Shot 2020-12-16 at 13 07 45" src="https://user-images.githubusercontent.com/73976733/102343296-06b9ef80-3fa3-11eb-96d4-4867e7b0438f.png">
 
 
 * Choose the level between 0-23:
 
-<img width="234" alt="Screen Shot 2020-12-11 at 0 50 19" src="https://user-images.githubusercontent.com/73976733/101839374-f17c3580-3b4a-11eb-9b75-dd88c46867a0.png">
+<img width="439" alt="Screen Shot 2020-12-16 at 13 08 18" src="https://user-images.githubusercontent.com/73976733/102343440-3b2dab80-3fa3-11eb-9a44-105d4f696941.png">
 
 
 and after this window open and the game is starting up(in this window it's level 11) :
 
-<img width="859" alt="Screen Shot 2020-12-13 at 21 05 27" src="https://user-images.githubusercontent.com/73976733/102022217-04327c80-3d8e-11eb-8cd6-c335ec408a76.png">
+<img width="861" alt="Screen Shot 2020-12-16 at 13 34 40" src="https://user-images.githubusercontent.com/73976733/102343706-8647be80-3fa3-11eb-8d5c-549c51bd9969.png">
+
+And when the game is over, the score and the number of steps taken will appear:
+<img width="286" alt="Screen Shot 2020-12-16 at 13 28 37" src="https://user-images.githubusercontent.com/73976733/102344062-0706ba80-3fa4-11eb-87ef-48cddf933ffb.png">
+
+<img width="359" alt="Screen Shot 2020-12-16 at 13 29 03" src="https://user-images.githubusercontent.com/73976733/102344251-4d5c1980-3fa4-11eb-8240-4b2094d3e481.png">
 
 
 
