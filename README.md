@@ -9,6 +9,9 @@
 Task number 2 in the object-oriented course This task is divided into 2 parts, first part, similar to previous tasks. Implementing a graph.
 Only this time a directed and weighted graph with the addition of departments and part two realizing a Pokemon game and managing agents for their target Pokemon similar to the Pacman game the game based on Grahs with nodes and edges taht represent the route. The player in the game represented by pokemonagent. There are pokemons scattered on the graph randomly from the srever and the goal of the game is to cath as much pokemons as possible and earn as many points as possible until the time is over.
 The game draw by JFrme class.
+The game will be managed by a server with which it will be possible to communicate via the following API:
+<img width="1072" alt="Screen Shot 2020-12-16 at 13 02 24" src="https://user-images.githubusercontent.com/73976733/102340511-4da5e600-3f9f-11eb-8428-b79d1df7ded2.png">
+
 
 # Getting Started :
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
