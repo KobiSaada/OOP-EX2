@@ -69,7 +69,7 @@ public class Ex2 implements Runnable, ActionListener {
         init(game);
 
         game.startGame();
- File file = new File("/Users/user/IdeaProjects/EX2/doc/musicGame.wav");
+File file = new File("doc/musicGame.wav");
         AudioInputStream audioInputStream = null;
         try {
             audioInputStream = AudioSystem.getAudioInputStream(file);
