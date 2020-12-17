@@ -261,7 +261,7 @@ public class MyFrame_Gui extends JFrame implements Serializable, MouseListener {
 
 
         //   graphics.drawImage(null, x, 40, 40, 0, null);
-        if (_ar != null) {
+        if (_ar != null&&_ar.getAgents()!=null) {
 
             //ArrayList<OOP_Point3D> rs = new ArrayList<OOP_Point3D>();
 
