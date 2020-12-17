@@ -47,6 +47,8 @@ public class DWGraph_DS implements directed_weighted_graph, Serializable {
      */
     @Override
     public edge_data getEdge(int src, int dest) {
+         if(src==dest)
+            return;
         if (!Nodes.containsKey(src) || !Nodes.containsKey(dest)) {
             return null;
         }
@@ -82,6 +84,8 @@ public class DWGraph_DS implements directed_weighted_graph, Serializable {
      */
     @Override
     public void connect(int src, int dest, double w) {
+         if(src==dest)
+            return;
         if (!Nodes.containsKey(src) || !Nodes.containsKey(dest)) {
             return;
         }
