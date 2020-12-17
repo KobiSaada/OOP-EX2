@@ -173,6 +173,7 @@ File file = new File("doc/musicGame.wav");
         //gg.init(g);
 
         arena = new Arena();
+        arena.setTime("Time Left :" + (double)game.timeToEnd()/1000);
         arena.setGraph(gg);
         arena.setPokemons(Arena.json2Pokemons(fs));
         gui = new MyFrame_Gui("test Ex2");
