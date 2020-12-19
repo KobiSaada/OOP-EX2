@@ -1,5 +1,4 @@
 package test;
-
 import api.*;
 import gameClient.util.Point3D;
 import org.junit.jupiter.api.Test;
