@@ -28,7 +28,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 # Prerequisites:
 
-* JDK-11.0.4
+* JDK-15.0.1
 
 * Eclipse
 
@@ -42,7 +42,7 @@ Clone that project to your workspace directory
 
      git clone https://github.com/KobiSaada/OOP-EX2-Pokemon-Game                      
       
-Open your IDE and make sure you see the project "OOPEX2-Challenge Pokemon"
+Open your IDE and make sure you see the project "OOP-EX2-Pokemon-Game"
 
 # How to run it?
  
