@@ -345,7 +345,7 @@ File file = new File("doc/musicGame.wav");
      */
     public static void Run_To_Pokemon_Agent(CL_Agent ag, List<node_data> shortestPath, edge_data catchPokemon) {
         for (node_data n : shortestPath) {
-
+         if(n!=null)
             game.chooseNextEdge(ag.getID(), n.getKey());
 
 
